@@ -1,4 +1,4 @@
-package com.tp.fidium_west_lnp.localservicerequest.lsrform.adminsection;
+package com.synchronoss.Fidium_West_LNP.Request;
 import java.util.*;
 import com.synchronoss.ruleserver.core.xpath.XOMContainerBean;
 import com.synchronoss.ruleserver.core.xpath.XOMAccessBean;
