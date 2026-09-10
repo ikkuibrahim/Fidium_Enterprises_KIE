@@ -21,7 +21,7 @@ import com.synchronoss.brms.dresclasses.CapitalLetterCheck;
 import com.synchronoss.brms.dresclasses.TimeFormatCheck;
 import com.synchronoss.brms.dresclasses.SpecialFormat;
 import com.synchronoss.brms.dresclasses.dao.SupplementOrderCheck;
-rule "CCI001" dialect "mvel" ruleflow-group "Fidium_Enterprises"
+rule "CCI001" dialect "mvel" ruleflow-group "Fidium_West_LNP"
 
 	 when
         //conditions
