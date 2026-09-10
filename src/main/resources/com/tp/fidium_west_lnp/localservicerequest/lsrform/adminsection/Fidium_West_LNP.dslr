@@ -1,5 +1,5 @@
 //created on: Jul 23, 2021
-package com.tp.fidium_enterprises_kie;
+package com.tp.fidium_west_lnp.localservicerequest.lsrform.adminsection;
 import com.synchronoss.ruleserver.core.xpath.XOMContainerBean;
 import com.synchronoss.ruleserver.core.xpath.XOMAccessBean;
 import com.synchronoss.brms.dresclasses.Populated;
