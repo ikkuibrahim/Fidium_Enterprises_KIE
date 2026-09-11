@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.myspace</groupId>
-  <artifactId>Fidium_West_LNP</artifactId>
+  <artifactId>FIDIUM_WEST_LNP</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>kjar</packaging>
-  <name>Fidium_West_LNP</name>
+  <name>FIDIUM_WEST_LNP</name>
   <description></description>
   <dependencies>
     <dependency>

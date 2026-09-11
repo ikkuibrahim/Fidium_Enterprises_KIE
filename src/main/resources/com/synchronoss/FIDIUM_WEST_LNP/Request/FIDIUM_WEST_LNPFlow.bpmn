@@ -3,13 +3,13 @@
   <bpmn2:itemDefinition id="__4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A_namespaceInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A_modelInputXItem" structureRef="java.lang.String"/>
   <bpmn2:itemDefinition id="__4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A_decisionInputXItem" structureRef="java.lang.String"/>
-  <bpmn2:process id="Fidium_West_LNPFlow" drools:packageName="com.synchronoss.Fidium_West_LNP.Request" drools:version="1.0" drools:adHoc="false" name="Fidium_West_LNPFlow" isExecutable="true" processType="Public">
+  <bpmn2:process id="FIDIUM_WEST_LNPFlow" drools:packageName="com.synchronoss.FIDIUM_WEST_LNP.Request" drools:version="1.0" drools:adHoc="false" name="FIDIUM_WEST_LNPFlow" isExecutable="true" processType="Public">
     <bpmn2:sequenceFlow id="_9C0640A5-2BD8-4A47-B2F2-753A3187E5CD" sourceRef="_A3578E95-6107-4D1A-80EE-7B6719CEB5F3" targetRef="_4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A"/>
     <bpmn2:sequenceFlow id="_7C8BB13B-8CA3-4C47-A054-2982DEFD86D0" sourceRef="_4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A" targetRef="_4AE33F84-178E-426F-9791-91900D5EADBB"/>
     <bpmn2:startEvent id="_A3578E95-6107-4D1A-80EE-7B6719CEB5F3">
       <bpmn2:outgoing>_9C0640A5-2BD8-4A47-B2F2-753A3187E5CD</bpmn2:outgoing>
     </bpmn2:startEvent>
-    <bpmn2:businessRuleTask id="_4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A" drools:ruleFlowGroup="Fidium_West_LNP" name="Rule" implementation="http://www.jboss.org/drools/rule">
+    <bpmn2:businessRuleTask id="_4D545BEF-4CFC-478B-98E5-F9AA9C7C6C0A" drools:ruleFlowGroup="FIDIUM_WEST_LNP" name="Rule" implementation="http://www.jboss.org/drools/rule">
       <bpmn2:extensionElements>
         <drools:metaData name="elementname">
           <drools:metaValue><![CDATA[Rule]]></drools:metaValue>
@@ -23,7 +23,7 @@
     </bpmn2:endEvent>
   </bpmn2:process>
   <bpmndi:BPMNDiagram id="_q_6WAQi0EfGuIqOfqG04yg">
-    <bpmndi:BPMNPlane id="_q_6WAgi0EfGuIqOfqG04yg" bpmnElement="Fidium_West_LNPFlow">
+    <bpmndi:BPMNPlane id="_q_6WAgi0EfGuIqOfqG04yg" bpmnElement="FIDIUM_WEST_LNPFlow">
       <bpmndi:BPMNShape id="shape__4AE33F84-178E-426F-9791-91900D5EADBB" bpmnElement="_4AE33F84-178E-426F-9791-91900D5EADBB">
         <dc:Bounds height="56.0" width="56.0" x="539.0" y="544.0"/>
       </bpmndi:BPMNShape>

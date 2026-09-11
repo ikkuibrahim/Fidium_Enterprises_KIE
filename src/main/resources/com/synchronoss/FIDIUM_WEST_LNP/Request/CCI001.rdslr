@@ -1,4 +1,4 @@
-package com.synchronoss.Fidium_West_LNP.Request;
+package com.synchronoss.FIDIUM_WEST_LNP.Request;
 import java.util.*;
 import com.synchronoss.ruleserver.core.xpath.XOMContainerBean;
 import com.synchronoss.ruleserver.core.xpath.XOMAccessBean;
@@ -21,7 +21,7 @@ import com.synchronoss.brms.dresclasses.CapitalLetterCheck;
 import com.synchronoss.brms.dresclasses.TimeFormatCheck;
 import com.synchronoss.brms.dresclasses.SpecialFormat;
 import com.synchronoss.brms.dresclasses.dao.SupplementOrderCheck;
-rule "CCI001" dialect "mvel" ruleflow-group "Fidium_West_LNP"
+rule "CCI001" dialect "mvel" ruleflow-group "FIDIUM_WEST_LNP"
 
 	 when
         //conditions
